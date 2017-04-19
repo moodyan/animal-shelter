@@ -24,7 +24,6 @@ p {
 .column p {
   font-style: normal;
 }
-
 @media screen and (min-width: 1000px) {
   .sidebar {
     float: left;
@@ -42,13 +41,20 @@ p {
 }
 
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 1000px) and (min-width: 480px) {
   .sidebar {
-    float: center;
+    float: bottom;
     background-color: goldenrod;
     border: 5px solid lightseagreen;
     padding: 4px;
     margin: 10px;
     max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    background-color: floralwhite;
+
+  }
 }
