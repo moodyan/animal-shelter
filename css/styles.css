@@ -1,12 +1,12 @@
 body {
-  min-width: 900px;
+  text-align: center;
 }
 .column {
-  float: left;
-  width: 300px;
+  width: 350px;
   border: 10px solid brown;
   background-color: blanchedalmond;
-  margin-right: 10px;
+  margin: 20px;
   padding: 10px;
   text-align: center;
+  
 }
