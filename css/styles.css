@@ -25,16 +25,30 @@ p {
   font-style: normal;
 }
 
-.sidebar {
-  float: left;
-  position: fixed;
-  bottom: 0;
-  background-color: goldenrod;
-  border: 5px solid lightseagreen;
-  padding: 4px;
-  margin: 10px;
+@media screen and (min-width: 1000px) {
+  .sidebar {
+    float: left;
+    position: fixed;
+    bottom: 0;
+    background-color: goldenrod;
+    border: 5px solid lightseagreen;
+    padding: 4px;
+    margin: 10px;
+  }
+
+  .sidebar ul {
+    text-align: left;
+  }
 }
 
-.sidebar ul {
-  text-align: left;
+
+@media screen and (max-width: 1000px) {
+
+  .sidebar {
+    float: center;
+    background-color: goldenrod;
+    border: 5px solid lightseagreen;
+    padding: 4px;
+    margin: 10px;
+    max-width: 350px;
 }
