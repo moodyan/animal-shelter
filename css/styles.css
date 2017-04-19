@@ -1,0 +1,12 @@
+body {
+  min-width: 900px;
+}
+.column {
+  float: left;
+  width: 300px;
+  border: 10px solid brown;
+  background-color: blanchedalmond;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+}
