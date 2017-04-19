@@ -24,3 +24,17 @@ p {
 .column p {
   font-style: normal;
 }
+
+.sidebar {
+  float: left;
+  position: fixed;
+  bottom: 0;
+  background-color: goldenrod;
+  border: 5px solid lightseagreen;
+  padding: 4px;
+  margin: 10px;
+}
+
+.sidebar ul {
+  text-align: left;
+}
